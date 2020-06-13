@@ -15,7 +15,7 @@ int main(void)
 			putchar(n1 + '0');
 			putchar(n2 + '0');
 
-			if(n1 != 9 || n2 != 9)
+			if (n1 != 9 || n2 != 9)
 			{
 				putchar(',');
 				putchar(' ');
@@ -23,6 +23,6 @@ int main(void)
 		}
 	}
 
-	return(0);
+	return (0);
 }
 
