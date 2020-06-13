@@ -14,10 +14,15 @@ int main(void)
 		{
 			putchar(n1 + '0');
 			putchar(n2 + '0');
-			putchar(' ');
-			putchar(',');
+
+			if(n1 != 9 || n2 != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-		return(0);
+
+	return(0);
 }
 
