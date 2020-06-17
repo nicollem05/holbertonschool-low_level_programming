@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - This program return the alphabet in one array
+ * print_alphabet - This program return the alphabet in one array
  * Return: nothing
  */
 void print_alphabet(void)
