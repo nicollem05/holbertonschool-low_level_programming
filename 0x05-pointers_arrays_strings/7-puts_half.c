@@ -11,7 +11,6 @@ void puts_half(char *str)
 
 	for (size = 0; str[size]; size++)
 	{
-	
 	}
 	size = size + 1;
 
