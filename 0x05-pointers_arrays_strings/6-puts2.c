@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
-  * puts2 -
-  *
+  * puts2 - prints every other character of a string, starting with the first character 
+  * @str: is a pointer
+  * Return: zero
   */
 void puts2(char *str)
 {
@@ -14,7 +15,7 @@ void puts2(char *str)
 	}
 	for (b = 0; b < a; b++)
 
-		if(b % 2 == 0)
+		if (b % 2 == 0)
 	{
 		_putchar(str[b]);
 	}
